@@ -1,0 +1,624 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Open+Sans:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500&family=Poppins:wght@400;500&family=Roboto:wght@300;500&display=swap');
+html {
+    overflow-x: hidden;
+}
+
+.navbar .max_width {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+}
+
+.navbar .max_width .logo {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-family: var(--Open-Sans);
+    font-weight: 500;
+}
+
+.navbar .max_width .logo a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar .max_width .login {
+    border-radius: 0.5rem;
+    display: inline;
+    margin-right: 2rem;
+    padding: 1rem 2rem;
+    background: var(--main_color);
+    font-size: 1.2rem;
+    font-family: var(--Poppins);
+    color: #fff;
+}
+
+.navbar .max_width .login a {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.home_content .max_width {
+    position: relative;
+}
+
+.home_content .max_width .heading_container {
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFBF2;
+}
+
+.home_content .max_width .main_heading {
+    font-size: 4rem;
+    font-family: var(--Plus-Jakarta-Sans);
+    font-weight: bold;
+    color: var(--sub_text);
+}
+
+.home_content .max_width .sub_text {
+    margin-top: 2rem;
+    width: 80%;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: var(--Jost);
+    color: var(--sub_text);
+}
+
+.topic_details .main_heading {
+    padding: 2rem 1rem 0 0;
+    font-size: 2.4rem;
+    font-family: var(--Poppins);
+    font-weight: 600;
+}
+
+.highlight_container .heading, .analysis_container .heading,
+.tweets_container .heading,
+.temporal_analysis .heading,
+.quantitative_analysis .heading {
+    font-size: 1.8rem;
+    padding: 2rem 1rem;
+    font-family: var(--Poppins);
+    font-weight: 600;
+}
+
+.temporal_analysis .heading {
+    padding: 2rem 1rem 0 1rem;
+}
+
+.highlight_container .container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.highlight_container .container .card {
+    width: 30rem;
+    display: inline-block;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card .card_heading {
+    font-size: 1.5rem;
+    font-family: var(--Plus-Jakarta-Sans);
+    font-weight: 600;
+    padding-bottom: 0.8rem;
+}
+
+.highlights_list .heading {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 0;
+    padding-bottom: 1rem;
+
+}
+
+.highlights_list {
+    font-size: 1.2rem;
+    font-family: var(--Poppins);
+    font-weight: 400;
+}
+
+.highlights_list ul {
+    margin-left: 2rem;
+
+}
+
+.analysis_container .topic_selection {
+    width: 100%;
+    padding: 1rem;
+    font-family: var(--Poppins);
+    font-weight: 300;
+    border-radius: 6px;
+}
+
+.highlight_container, .analysis_container {
+    padding: 0 2rem;
+}
+
+.tweet_area {
+    padding: 1.5rem;
+    width: 100%;
+    border: 1px solid #dadada;
+}
+
+.divider {
+    text-align: center;
+    padding: 1.2rem 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: var(--Poppins);
+}
+
+.analysis_button {
+    cursor: pointer;
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: var(--Poppins);
+    border-radius: 10px;
+    background: var(--main_color);
+    margin: 2rem 0;
+}
+
+.profile_picture {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tweet_card .profile_picture img {
+    width: 4rem;
+    height: auto;
+    border-radius: 50%;
+}
+
+.tweet_card {
+    width: 40rem;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 1px solid gray;
+}
+
+.tweet_card .tweet_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tweet_card .tweet_top .username {
+    font-family: var(--Roboto);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.tweet_username {
+    font-weight: 300;
+}
+
+.tweet_card .tweet_content {
+    padding: 1rem 0;
+    font-family: var(--Poppins);
+    font-size: 1.2rem;
+}
+
+.tweet_card .comment_tab {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topic_details .max_width {
+    width: 100%;
+    padding: 0 2rem 3rem 2rem;
+}
+
+.activity .col .sub_heading {
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-family: var(--Poppins);
+
+}
+
+.activity .activity_top_container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.activity {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-left: 1rem;
+    padding: 3rem;
+    margin-top: 1rem;
+}
+
+.activity .col .heading {
+    font-size: 1.2rem;
+    padding: 0;
+    font-weight: bold;
+    font-family: var(--Poppins);
+
+}
+
+.activity .annual {
+    padding: 1rem 2rem;
+    color: #fff;
+    background: var(--main_color);
+    font-family: var(--Poppins);
+    border-radius: 10px;
+}
+
+.tweets_container {
+    padding: 2rem 0;
+}
+
+.temporal_analysis .max_width {
+    padding: 0;
+}
+
+.temporal_analysis_graph {
+    margin-top: 2rem;
+    width: 100%;
+    padding-left: 2rem;
+}
+
+.tweet_pie_container {
+    width: 50rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.tweet_pie_container .top_container {
+    padding: 1rem 3rem;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.tweet_pie_container .top_container .sub_heading {
+    font-size: 1.2rem;
+    font-family: var(--Poppins);
+    font-weight: 500;
+    color: #828282;
+}
+
+.tweet_pie_container .top_container .no_of_tweets {
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: var(--Plus-Jakarta-Sans);
+    padding: 0.1rem 0 0.4rem 0;
+}
+
+.tweet_pie_container .top_container .sub_text {
+    width: 20rem;
+    font-family: var(--Poppins);
+    font-weight: 300;
+}
+
+.quantitative_pie_graph, .quantitative_doughnut_graph {
+    padding: 2rem;
+}
+
+.tweet_donut_container {
+    width: 40rem;
+}
+
+.tweet_donut_container .top_container {
+    padding: 1rem 3rem;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.quantitative_chat_container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.tweet_donut_container .heading {
+    padding: 1rem 0rem 2rem 0;
+}
+
+.tweet_donut_container .sub_heading {
+    font-size: 1.3rem;
+    font-family: var(--Poppins);
+    color: #828282;
+}
+
+.tweet_horizontal_bar_graph {
+    width: 55rem;
+}
+
+.login_page .max_width {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+.login_page .col_image img {
+    width: 40rem;
+}
+
+.login_page .col_content .heading {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    font-family: var(--Poppins);
+}
+
+.login_page .col_content .heading span {
+    color: var(--main_color);
+    font-weight: 600;
+}
+
+.login_page .google_login {
+    margin-top: 1.2rem;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    font-size: 1.2rem;
+    font-family: var(--Plus-Jakarta-Sans);
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.login_page .google_login img {
+    width: 2rem;
+}
+
+.analysis_popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40rem;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: #fff;
+    padding: 4rem 2rem;
+
+}
+
+.analysis_popup .textfield input {
+    width: 100%;
+    padding: 2rem;
+    color: #000;
+}
+
+.analysis_popup .analysis_popup_main_heading {
+    font-size: 1.4rem !important;
+    text-align: center;
+    padding: 1rem 0;
+    color: #54595E;
+
+}
+
+.analysis_popup .analysis_popup_sub_text {
+    margin: 0;
+    font-size: 1.2rem !important;
+    text-align: center;
+    color: rgba(96, 93, 93, 0.4);
+}
+
+.analysis_popup .container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    gap: 1rem;
+}
+
+.analysis_popup .container .popup_btn {
+    width: 100%;
+    padding: 2rem 4rem;
+    background: var(--main_color);
+    color: #fff;
+}
+
+.analysis_popup .container .popup_btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.analysis_popup .select_column {
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    font-family: var(--Open-Sans);
+}
+
+.analysis_popup .close {
+    position: absolute;
+    cursor: pointer;
+    top: 1rem;
+    right: 1rem;
+    width: 1.7rem;
+}
+
+.login_email, .login_password {
+    border-radius: 6px;
+    padding: 1rem;
+    width: 100%;
+    background: rgba(236, 236, 236, 0.32);
+}
+
+.login_email label, .login_password label {
+    font-size: 1.2rem;
+    font-family: var(--Plus-Jakarta-Sans);
+}
+
+.login_email input, .login_password input {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-family: var(--Plus-Jakarta-Sans);
+    width: 100%;
+    padding: 1rem;
+}
+
+.login_page .division {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 1.5rem;
+    font-family: var(--Poppins);
+}
+
+.login_page .login_button {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 2rem 0;
+    text-align: center;
+    background: var(--main_color);
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: var(--Plus-Jakarta-Sans);
+}
+
+.remember_me {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember_forget, .remember_checkbox {
+    gap: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col_image {
+    display: flex;
+    align-items: center;
+}
+
+.login_page .login_popup {
+    padding: 2rem;
+    width: 50rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.login_page .login_popup div {
+    font-size: 1.5rem;
+    font-family: var(--Plus-Jakarta-Sans);
+}
+
+.login_page .login_popup span {
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    font-family: var(--Plus-Jakarta-Sans);
+}
+
+.login_page .login_popup img {
+    width: 30rem;
+}
+
+.login_page .login_popup button {
+    width: 100%;
+    padding: 1.5rem 0;
+}
+
+.history {
+    padding: 2rem;
+}
+
+.history .heading {
+    font-size: 3rem;
+    font-family: var(--Open-Sans);
+    font-weight: 500;
+    padding: 2rem;
+}
+
+.history .history_card {
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2rem;
+    min-height: 15rem;
+    border-left: 5px solid #74414D;
+}
+
+.history .history_card .card_heading {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: var(--Open-Sans);
+}
+
+.history .history_card .card_heading span {
+    float: right;
+    background: #74414D;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.history .history_card .card_sub_heading {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    font-family: var(--Open-Sans);
+}
+
+.history .history_container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.errorBox {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 20%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 40rem;
+    min-height: 10rem;
+    z-index: 999;
+    font-size: 1.7rem;
+    padding: 2rem;
+    border-left: 8px solid #74414D;
+    border-top: 3px solid #74414D;
+    border-bottom: 3px solid #74414D;
+    background: #ffffff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-family: var(--Open-Sans);
+    transition: all 1s ease-in-out;
+    animation: bubbles3 1s linear;
+
+}
+
+@keyframes bubbles3 {
+    0% {
+        right: -100%;
+        opacity: 0;
+    }
+
+    100% {
+        right: 0;
+        opacity: 1;
+    }
+}

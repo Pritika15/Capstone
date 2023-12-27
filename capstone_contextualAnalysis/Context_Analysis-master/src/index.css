@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 64.9%;
+}
+
+:root {
+    --Jost: 'Jost', sans-serif;
+    --Open-Sans: 'Open Sans', sans-serif;
+    --Plus-Jakarta-Sans: 'Plus Jakarta Sans', sans-serif;
+    --Poppins: 'Poppins', sans-serif;
+    --Roboto: 'Roboto', sans-serif;
+    --main_color:#74414D;
+    --sub_text:#23155B;
+}

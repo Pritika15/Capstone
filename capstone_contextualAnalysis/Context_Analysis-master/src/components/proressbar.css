@@ -1,0 +1,110 @@
+.text-center {
+    text-align: center;
+    color: #CCC;
+}
+
+.cont {
+    height: 100%;
+    left: calc(50% - 350px);
+    padding: 0;
+    margin: 80px auto;
+    position: relative;
+}
+
+#nprogress-bar {
+    -webkit-appearance: none;
+    width: 700px;
+    color: #CCC;
+    height: 5px;
+    margin: 0 auto;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    transform: translate(-0%, -50%);
+}
+
+#first, #second, #third, #fourth {
+    margin: 0px;
+}
+
+#step span {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    border: 3px solid #CCC;
+    background: #CCCCCC;
+    position: absolute;
+    left: 0;
+    color: #ffffff;
+    top: -30px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+#step {
+    position: relative;
+    height: 100px;
+    width: 100%;
+}
+
+#step span svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+#step .first {
+    left: -23px;
+}
+
+
+#step .second {
+    left: 200px;
+}
+
+#step .third {
+    left: 420px;
+}
+
+#step .fourth {
+    left: 640px;
+}
+
+.detail {
+    position: relative;
+}
+
+#nprogress-bar::-webkit-progress-value { /* Changes line color */
+    background: #049dfe;
+    transition: all 0.4s ease-in-out;
+}
+
+#nprogress-bar::-webkit-progress-bar { /* Changes background color */
+    background: #CCC;
+}
+
+#step .border-change {
+    border-color: #0077c2;
+    background: #049dfe;
+    transition: all 0.4s ease-in-out;
+}
+
+.progress_container {
+    padding: 0 2rem;
+}
+
+.progress_container h2 {
+    font-size: 3rem;
+    font-family: var(--Open-Sans);
+
+}
+
+.progress_container p {
+    font-size: 1.8rem;
+    font-family: var(--Open-Sans);
+    padding-top: 2rem;
+}
+
+
